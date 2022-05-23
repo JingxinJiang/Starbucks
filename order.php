@@ -17,7 +17,8 @@
                 
                 $coffeeNum=$_REQUEST['coffee'];
                 $cream=$_REQUEST['cream'];
-                //$size=$_REQUEST['size'];
+                $size1=$_REQUEST['size'];
+                console.log($size1);
                 $size= filter_input(INPUT_POST, 'size', FILTER_SANITIZE_STRING);
                 $sugar=$_REQUEST['sugar'];
                 //echo $coffeeNum." ".$cream." ".$sugar." size: ".$size."yes";
