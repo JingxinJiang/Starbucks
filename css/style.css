@@ -1,0 +1,120 @@
+body{
+    margin:0 auto;
+    /* background-color: rgb(220, 191, 154); */
+    background-color: rgb(150, 194, 245);
+}
+.order{
+   margin:0 auto;
+     background-color: rgb(150, 194, 245); 
+    /* background-color: rgb(220, 191, 154); */
+}
+.container{
+    margin:0 auto;
+    text-align: center; 
+    
+}
+.titleContainer{
+    background: url("../images/logo-en.png") no-repeat;
+    height:100px;
+    background-size:80px;
+    /* /background-color: rgb(181, 192, 187); */
+}
+
+h1{
+    text-align: center;
+    color:blue;
+    font-size:80px;
+}
+.titleContainer h1{
+    color:rgb(85, 76, 87)
+}
+hr{   
+    height: 5px;
+    background-color: rgb(149, 159, 247);
+}
+.hrControl{
+    width:50%;
+    background-color:gray;
+}
+.contentCenter{
+
+    margin:0 auto;    
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+form{
+    margin:0 auto; 
+    width: 50%;
+    font-size: 24px;
+
+}
+.heightC{
+    height:30px;
+    font-size: 16px;
+}
+fieldset{
+    border:5px solid blueviolet
+}
+.formcontrol{
+        margin: 0.5rem 0;
+        display: grid;
+        /*first item 100px, second remain 70%*/
+        grid-template-columns: 300px 0.7fr;
+        
+        align-items: center;
+    }
+.button1{
+    /*margin-top:19%;*/
+    
+    width:250px;
+    height:50px;   
+    text-shadow:1px 1px 1px #ffffff;    
+    font-size: 120%;
+    color: #444444;
+    background-color:#e9eabe;
+    border: 1px solid #bdbdbd;
+    border-bottom:2px solid #b2b2b2;
+    border-radius: 5px;
+    padding: 5px;
+    background:linear-gradient(to bottom,#beeae9,#69f3ee);
+    background-repeat: no-repeat;
+}
+.button1:hover{
+    color:black;
+    background-color:#ead5be;
+    background:linear-gradient(to bottom,#51f567,#beeae9 );
+    border: 1px solid #b1e1e4;
+    border-top:2px solid #b2b2b2;
+}
+a{
+    text-decoration: none;
+}
+.small{
+    width:100px;
+    height:135px;
+}
+.medium{
+    width:150px;
+    height:200px;
+}
+.large{
+    width:200px;
+    height:270px;
+}
+.extralarge{
+    width:300px;
+    height:400px;
+}
+.orderContentCenter{
+    margin-top:20px;
+    
+}
+.orderInfo{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:20px;
+    margin-right:20px;
+    background-color:white;
+    padding:15px;
+}
